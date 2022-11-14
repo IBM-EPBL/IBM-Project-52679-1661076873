@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Heart Disease Prediction</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <section id="home">
+        <header>
+            <div id="container">
+                <ul>
+                    <li><a href="#home"><b>HOME</b></a></li>
+                    <li><a href="#content"><b>CONTENT</b></a>
+                        <ul>
+
+                            <li><a href="#subtypes"><b>SUBTYPES</b></a></li>
+                            <li><a href="#diagnosis"><b>DIAGNOSIS</b></a></li>
+                            <li><a href="#heartpredict"><b>USING ML</b></a>
+                                <ul>
+                                    <li><a href="#goal"><b>GOAL</b></a></li>
+                                    <li><a href="#dataset"><b>DATASET</b></a></li>
+                                    <li><a href="#technique"><b>TECHNIQUE</b></a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#result"><b>RESULT</b></a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#predict"><b>PREDICT</b></a></li>
+                    <li><a href="#analytics"><b>ANALYTICS</b></a></li>
+                    <li><a href="#sign_in"><b>SIGN IN</b></a></li>
+
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <h1>Heart Diseases Prediction</h1>
+            <img src="./images/heart 2.jpeg" alt="">
+        </div>
+    </section>
+    <section id="content">
+        <h1>What is Heart Disease ?</h1>
+        <div class="para">
+            <p>
+                1. A type of disease that affects the heart or blood vessels. The risk of certain heart diseases may be increased by smoking, high blood pressure, high cholesterol, unhealthy diet, lack of exercise, and obesity.
+            </p>
+            <p>
+                2. Heart disease is one of the biggest causes of morbidity and mortality among the population of the world. Prediction of cardiovascular disease is regarded as one of the most important subjects in the section of clinical data analysis. The amount of data
+                in the healthcare industry is huge.
+            </p>
+        </div>
+        <div class="box">
+            According to a news article, heart disease proves to be the leading cause of death for both women and men. The article states the following :
+        </div>
+        <div class="list">
+            <ul>
+                <li>More than half of the deaths due to heart disease in 2009 were in men.</li>
+                <li>Coronary Heart Disease(CHD) is the most common type of heart disease, killing over 370,000 people annually.</li>
+                <li>Every year about 735,000 Americans have a heart attack. Of these, 525,000 are a first heart attack and 210,000 happen in people who have already had a heart attack.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="subtypes">
+        <h1>HEARTDISEASES SUBTYPES</h1>
+        <div class="para1">
+            <h4>
+                1. Coronary heart disease:
+            </h4>
+            <p>
+                Coronary heart disease is the term that describes what happens when your heart's blood supply is blocked or interrupted by a build-up of fatty substances in the coronary arteries. Over time, the walls of your arteries can become furred up with fatty deposits.
+            </p>
+            <h4>
+                2. Congenital heart defects:
+            </h4>
+             <p>
+                Congenital heart disease is a general term for a range of birth defects that affect the normal way the heart works. The term "congenital" means the condition is present from birth.
+             </p>
+           
+            <div class="three">
+                <h4>3. Arrhythmia:</h4>
+                <p>Arrhythmia refers to an irregular heartbeatTrusted Source. It occurs when the electrical impulses that coordinate the heartbeat do not work correctly. As a result, the heart may beat too quickly, too slowly, or erratically.</p>
+                
+            </div>
+        </div>
+    </section>
+    <section id="diagnosis">
+        <h1>HEARTDISEASES DIAGNOSED</h1>
+        <div class="para1">
+            <h4>Physical exam and blood tests:</h4>
+            <p>During your appointment, your doctor will ask you about your symptoms and your family medical history. They’ll also check your heart rate and blood pressure. Your doctor may also order blood tests. Your doctor can use these tests to help determine your risk of heart disease and heart attack.</p>
+            <h4>A complete cholesterol test checks four types of fats in your blood:</h4>
+            <div class="list">
+                <ul>
+                    <li>Total cholesterol is the sum of all cholesterol in your blood.</li>
+                    <li>Low-density lipoprotein (LDL) cholesterol is sometimes called “bad” cholesterol. Too much of it causes fat to build up in your arteries, which reduces blood flow. This can lead to a heart attack or stroke.</li>
+                    <li>High-density lipoprotein (HDL) cholesterol is sometimes called “good” cholesterol. It helps carry away LDL cholesterol and clear your arteries.</li>
+                    <li>Your doctor may also order C-reactive protein (CRP) tests to check your body for signs of inflammation. They can use the results of your CRP and cholesterol tests to assess your risk of heart disease.</li>
+                </ul>
+            </div>
+            <h4>Non invasive tests for heart disease:</h4>
+            <div class="list">
+                <ul>
+                    <li>Electrocardiogram</li>
+                    <li>Echocardiogram</li>
+                    <li>Stress Test</li>
+                    <li>Carotid Ultrasound</li>
+                    <li>Holter Monitor</li>
+                    <li>Chest X-ray</li>
+                    <li>Tilt Table Test</li>
+                    <li>CT Scan</li>
+                    <li>Heart MRI</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="heartpredict"></section>
+    <section id="goal">
+        <h1>GOALS</h1>
+        <div class="goal">
+            <img src="./images/no-goal.jpg" alt="">
+            <p>
+                 The main challenge in today's healthcare is provision of best quality services and effective accurate diagnosis. Even if heart diseases are found as the prime source of death in the world in recent years, they are also the ones that can be controlled and managed effectively. The whole accuracy in management of a disease lies on the proper time of detection of that disease. Our proposed model makes an attempt to detect these heart diseases at early stage to avoid disastrous consequences.
+            </p>
+        </div>
+    </section>
+    <section id="dataset">
+        <h1>
+            DATASET DESCRIPTION
+        </h1>
+        <h2>
+            HTML TABLE
+        </h2>
+        <div class="table">
+            <table>
+                <tr>
+                    <th>s.no</th>
+                    <th>Attribute</th>
+                    <th>Description</th>
+                    <th>Type</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Age</td>
+                    <td>Age of patient</td>
+                    <td>Numeric</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>sex</td>
+                    <td>Gender of patients</td>
+                    <td>Nominal</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Cp</td>
+                    <td>Type of chest pain</td>
+                    <td>Nominal</td>
+                </tr>
+                <tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Trestbps</td>
+                        <td>Resting blood pressure</td>
+                        <td>Numeric</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Chol</td>
+                        <td>Cholesterol level</td>
+                        <td>Numeric</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>FBS</td>
+                        <td>Fasting Blood sugar</td>
+                        <td>Numeric</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>RestECG</td>
+                        <td>Electrocardiographic result</td>
+                        <td>Numeric</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>Thalach</td>
+                        <td>The maximum heart attained by patient</td>
+                        <td>Numeric</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>Exang</td>
+                        <td>Exercise induced angina</td>
+                        <td>Nominal</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>Oldpeak</td>
+                        <td>ST depression induced angina</td>
+                        <td>Numeric</td>
+                    </tr>
+            </table>
+        </div>
+    </section>
+    <section id="technique">
+        <h1>
+            HEARTDISEASE PREDICTION-BEST ML APPROACHES
+        </h1>
+        <div class="tech">
+            <h4>1. Random Forest Classifier</h4>
+            <p>
+                The random forest algorithm provides flexibility and robustness for classification tasks using tabular data, which few other standard models can. Given its simplicity and versatility, the random forest classifier is widely used for fraud detection, loan
+                risk prediction, and predicting heart diseases.
+            </p>
+            <img src="images/a.jpg" alt="">
+        </div>
+        <div class="tech">
+            <h4>2. K-Nearest Neighbors</h4>
+            <p>
+                As the name says, a k neighbors classifier takes a data point and finds k other data points nearest to it in the vector space. In a supervised fashion, KNN creates clusters of the data samples having the same target value. Whenever a new value needs to
+                be classified, it uses a distance metric to assign it to one of the classes. For heart disease detection, there are only two classes that KNN needs to build. Thus, it is pretty robust and efficient for this task. Euclidean distance is
+                one of the popular distance metrics used by KNN, but there are many more available.
+            </p>
+            <img src="images/b.png" alt="">
+        </div>
+        <div class="tech">
+            <h4>3. Decision Tree classifier</h4>
+            <p>
+                Decision Trees are the individual models that make a random forest after ensembling. Each decision tree classifier uses the dataset's attributes to create a tree. As shown in the image below, the branches end up in the leaves that are made up of target
+                values. Using visual components and an information gain index, the tree identifies the leading features of the labels of each class. Thus, the branches are created that maximize the information gained in each split and lead up to the leaf
+                node of that class. Decision trees are fast and robust for disease prediction if the dataset has powerful features for a simple use-case.
+            </p>
+            <img src="images/c.png" alt="">
+        </div>
+        <div class="tech">
+            <h4>4. Support Vector Machines
+            </h4>
+            <p>
+                A Support Vector Machine (SVM) algorithm is a non-probabilistic classifier aiming to generate hyperplanes that divide the data points of two classes in the vector space. For N number of features and M targets, SVM creates M-1 N-dimensional hyperplanes
+                that separate data points of different classes from each other. The image below shows how "support" vectors are calculated such that the margin (or distance) between the vectors of two classes is the most. SVM optimizes this margin metric
+                to find the best hyperplane for all the categories.
+            </p>
+            <img src="images/d.png" alt="">
+        </div>
+        <div class="tech">
+            <h4>5. Artificial Neural Networks</h4>
+            <p>
+                An ANN is perhaps the most popular machine learning model in today's AI landscape, given its wide applications in deep learning in the form of convolutional neural networks. However, a normal ANN comprised of a handful of linear nodes can perform comparable
+                to the best standard ML models. The architecture of a standard ANN is shown in the figure below. As we can see, the hidden layer is the most crucial part of an ANN, and is made up of several linear nodes.
+            </p>
+            <img src="images/e.jpeg" alt="">
+        </div>
+    </section>
+    <section id="result">
+        <div class="result">
+            <h1>RESULT</h1>
+            <P>
+                Heart disease prediction is a necessity as well as exigent work in the medical field. The mortality rate can be reduced if the disease is recognized at the initial stages, and precautions and proper treatment are possible. The algorithms are tested using
+                various features. Accurate forecasting of the diseases is the goal of the proposed method. The decision classifier approach proved to be very efficacious to predict the diseased using features like age, BMI, cholesterol, and more. Adding
+                feature BMI improved the accuracy of prediction. Our project focuses on analyzing and designing a system where patients’
+                real-time information can be processed and evaluated based on previous symptoms and current symptoms for different diseases.
+            </P>
+        </div>
+
+    </section>
+    <section id="predict">
+        <h1>HEART DISEASE PREDICTION</h1>
+        <div class="heart_img">
+            <img src="./images/HN.jpg" alt="">
+        </div>
+        <div class="heart_table">
+            <div class="heart_box">
+                <form action="{{ url_for('predict')}}" method="post">
+                    <pre>
+                        <label>AGE</label>
+                        <input type="number" name="age" id="age" placeholder="" required="required"/><br/>           
+                        <label>GENDER</label>
+                        <input type="text" name="gender" id="gender" placeholder="" required="required"><br/>
+                        <label>CHOLESTROL</label> 
+                        <input type="number" id="cp"placeholder="" required="required"><br/> 
+                        <label>FASTING BLOOD SUGAR</label>
+                        <input name="chol" id="chol" placeholder="" required="required"><br>  
+                        <label>CORONARY ARTERY CALCIUM</label>
+                        <input type="number" name="restecg" placeholder="" required="required"><br>    
+                    </pre>
+            </div>
+            <div class="heart_box">
+                <pre>
+                    <label>CHEST PAINTYPE</label>      
+                    <input type="number" placeholder="" required="required"><br>  
+                    <label>TRESTBPS</label>  
+                    <input name="trestbps" id="trestbps" placeholder="" required="required"><br>
+                    <label>THALACH</label>  
+                    <input name="thalach" id="thalach" placeholder="" required="required"><br>  
+                    <label>EXANG</label>     
+                    <input type="number" name="exang" id="exang" placeholder="" required="required"><br>         
+                    <label>RESTECG</label>       
+                    <input type="number" name="ca" id="ca" placeholder="" required="required"><br> 
+                </pre>
+            </div>
+        </div>
+        <button>
+            SUBMIT
+        </button>
+    </section>
+    <section id="analytics">
+        <h1>DATA VISUALIZATION</h1>
+        <div class="para1">
+            <h4>1.Chest Pain by Age:</h4>
+            <p>
+                Chest pain is often associated with heart disease, many people with heart disease say they have a vague discomfort that isn't necessarily identified as pain. In general, chest discomfort related to a heart attack or another heart problem may be described
+                by or associated with one or more of the following: Pressure, fullness, burning or tightness in your chest Crushing or searing pain that spreads to your back, neck, jaw, shoulders, and one or both arms Pain that lasts more than a few minutes,
+                gets worse with activity, goes away and comes back, or varies in intensity Shortness of breath Cold sweats Dizziness or weakness Nausea or vomiting...
+            </p>
+            <h4>2.Exploration Of BPvsChestPainType And Gender:</h4>
+            <p>
+                Sex differences in pain perception are well-described, where female sex has higher somatic awareness compared to male sex. A comprehensive evaluation of sex and gender differences in pain includes proximate cause contributions of experiential
+                (abuse, labor, and delivery), psychological (anxiety, depression, post-traumatic stress), genetic (X chromosome imprinting/Y chromosome), activational (steroid action in adulthood) and sociocultural (gender roles, gender role expectations).
+            </p>
+            <h4>3.Exploration Of Max Heart Rate During The Chest Pain:</h4>
+            <p>
+                Your maximum heart rate is a calculation that helps you figure out what your ideal target heart rate is during exercise. When your heart rate is too fast, it’s called tachycardia. For adults, a fast heart rate is defined as above 100 bpm. Tachycardia can be caused by underlying health conditions like: anemia, congenital heart disease, heart disease that’s affecting blood flow, hyperthyroidism, injury to the heart, like from a heart attack. Taking illegal drugs or misusing prescription medications or non-prescription products (like diet supplements) may also cause your heart to beat too fast. Other, less serious reasons for a fast heart rate include: drinking caffeine, drinking alcohol, stress, physical exercise, pregnancy etc.
+            </p>
+            <h4>4.Exploration Of BP By Age:</h4>
+            <p>
+                Blood pressure is the force of blood flowing through a person’s blood vessels. Doctors calculate a person’s blood pressure using two measurements known as systolic and diastolic. Systolic blood pressure is the highest level of force at which the heart pumps blood around the body. Diastolic blood pressure is the resistance to the blood flow in the blood vessels. If either measurement is too high, it could mean a person has high blood pressure. If they are too low, it could suggest low blood pressure. Normal =Less than 120and Less than 80, Elevated =120–129 and Less than 80, Hypertension =stage 1 130–139 or 80–89, Hypertension =stage 2 140 or higher or 90 or higher, Hypertension crisis =Higher than 180 or Higher than 120...
+            </p>
+            <h4>5.Exploration Of Chorestrol By Age And Gender:</h4>
+            <p>
+                Cholesterol is a waxy, fat-like substance, and there are two types: low-density lipoprotein (LDL) and high-density lipoprotein (HDL). If there is too much LDL, or “bad,” cholesterol in the bloodstream, it can build up in blood vessels, forming fatty deposits called plaques.These plaques can lead to other problems, including heart attacks and strokes. Total and LDL cholesterol levels should be low. But having more HDL, or “good,” cholesterol in the blood may reduce the risk of a heart attack or stroke. Typically, males tend to have higher levels throughout their lives than females. A male’s cholesterol levels increase with age, and a female’s cholesterol levels rise after menopause. 
+            </p>
+        </div>
+        <div class="last_table">
+            <table>
+                <tr>
+                <th>Type of cholesterol</th>
+                <th>Anyone 19 or younger</th> 
+                <th>Men aged 20 or over</th>
+                <th>Women aged 20 or over</th>
+                </tr>
+               
+                <tr>
+                <td>total cholesterol</td> 	
+                <td>less than 170 mg/dl</td>	
+                <td>125–200 mg/dl</td>	      
+                <td>125–200 mg/dl</td>
+                </tr>
+                
+                <tr>
+                <td>non-HDL</td> 	
+                <td>less than 120 mg/dl</td>	
+                <td>less than 130 mg/dl</td>	      
+                <td>less than 130 mg/dl</td>
+                </tr>
+               
+                <tr>
+                <td>LDL</td> 	
+                <td>less than 100 mg/dl</td>	
+                <td>less than 100 mg/dl</td>	      
+                <td>less than 100 mg/dl</td>
+                </tr>
+               
+                <tr>
+                <td>HDL</td> 	
+                <td>more than 45 mg/dl</td>	
+                <td>40 mg/dl or higher</td>	      
+                <td>50 mg/dl or higher</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="sign_in">
+        <div class="card">
+            <div class="form">
+                <h3>Login</h3>
+                <div class="input-field">
+                    <i class="fa fa-envelope"></i>
+                    <input type="text" placeholder="Enter your email">
+                </div>
+                <div class="input-field">
+                    <i class="fa fa-lock"></i>
+                    <input type="password" placeholder="Enter your password">
+                </div>
+                <a href="#">Forgot password?</a>
+                <button>Login</button>
+                <p>Don't have an account?<a href="#">Signup now</a></p>
+            </div>
+            <div class="image">
+                <div class="overlay">
+                    <h3>Our heart is already filled with<br>feelings and emotions</h3>
+                    <p>So let's have a health heart.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
